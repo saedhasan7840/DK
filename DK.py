@@ -4,8 +4,6 @@ os.system("git pull")
 from bs4 import BeautifulSoup as sop
 from bs4 import BeautifulSoup
 import requests as ress
-from datetime import date
-from datetime import datetime
 from time import sleep
 from time import sleep as waktu
 try:
