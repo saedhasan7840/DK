@@ -1,4 +1,6 @@
-#SHAHID
+# https://t.me/DARK_TEAM_LMNx9
+# Dec & FiXed By - @DARK_LMNx999
+
 import os
 from os import path
 from pathlib import Path
