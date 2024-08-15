@@ -35,13 +35,6 @@ cps=[]
 ck=[]
 ok=[]
 user = []
-#__________________[ PROXY ]__________________#
-try:
-    prox= requests.get('https://api.proxyscrape.com/v2/?request=displayproxies&protocol=socks4&timeout=100000&country=all&ssl=all&anonymity=all').text
-    open('.prox.txt','w').write(prox)
-except Exception as e:
-    pass
-prox=open('.prox.txt','r').read().splitlines()
 #__________________[ DATE ]__________________#
 dic = {'1':'JANUARY','2':'FEBRUARY','3':'MARCH','4':'APRIL','5':'MAY','6':'JUNE','7':'JULY','8':'AUGUST','9':'SEPTEMBER','10':'OCTOBER','11':'NOVEMBER','12':'DECEMBER'}
 dic2 = {'01':'JANUARY','02':'FEBRUARY','03':'MARCH','04':'APRIL','05':'MAY','06':'JUNE','07':'JULY','08':'AUGUST','09':'SEPTEMBER','10':'OCTOBER','11':'NOVEMBER','12':'DECEMBER'}
