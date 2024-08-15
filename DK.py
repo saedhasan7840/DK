@@ -34,13 +34,6 @@ cps=[]
 ck=[]
 ok=[]
 user = []
-#__________________[ DATE ]__________________#
-dic = {'1':'JANUARY','2':'FEBRUARY','3':'MARCH','4':'APRIL','5':'MAY','6':'JUNE','7':'JULY','8':'AUGUST','9':'SEPTEMBER','10':'OCTOBER','11':'NOVEMBER','12':'DECEMBER'}
-dic2 = {'01':'JANUARY','02':'FEBRUARY','03':'MARCH','04':'APRIL','05':'MAY','06':'JUNE','07':'JULY','08':'AUGUST','09':'SEPTEMBER','10':'OCTOBER','11':'NOVEMBER','12':'DECEMBER'}
-bln = dic[(str(datetime.datetime.now(1).month))]
-thn = datetime.datetime.now(1).year
-date ='\x1b[1;97m'+str(tgl)+'\x1b[1;97m/\x1b[1;97m'+str(bln)+'\x1b[1;97m/\x1b[1;97m'+str(thn)
-
 #__________________[ SIM ID ]__________________#
 sim_id = ''
 android_version = subprocess.check_output('getprop ro.build.version.release',shell=True).decode('utf-8').replace('\n','')
